@@ -1,0 +1,100 @@
+@font-face{
+    font-family: Airbnb cereal App;
+    src: url(../font/AirbnbCerealBook.ttf);
+}
+*, body{
+    font-family: Airbnb cereal App;
+}
+
+.count{
+    background-color: #57CAD5;
+    border-radius: 100px;
+    color:white;
+}
+
+.text-cart{
+    color: #CECECE;
+}
+
+.display-product{
+    background: rgba(190, 195, 202, 0.3)
+}
+
+.footer-cart{
+    margin-top: 75%;
+}
+
+.checkout {
+    background: #57CAD5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.cancel {
+    background: #F24F8A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-cancel{
+    background: #F24F8A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-add{
+    background: #57CAD5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.print{
+    background: #F24F8A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.sendemail{
+    background: #57CAD5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* History */
+
+.card-dashboard-left{
+    background : linear-gradient(
+        278.29deg,
+        #fbb2b4 30.05%,
+        rgba(255,143,178,0) 133.19%
+    );
+    filter: drop-shadow(10px 15px 10px rgba(255,143,178,0.25));
+    border-radius:10px;
+    text-align: left;
+}
+
+.card-dashboard-mid{
+    background: linear-gradient(278.29deg,
+         #29DFFF 30.05%,
+         rgba(41, 223, 255, 0) 133.19%
+      );
+    filter: drop-shadow(10px 15px 10px rgba(41, 223, 255, 0.25));
+    border-radius: 10px;
+    text-align: left;
+}
+
+.card-dashboard-right{
+    background: linear-gradient(278.29deg, 
+        #AB84C8 30.05%, 
+        rgba(241, 201, 236, 0) 133.19%
+    );
+    filter: drop-shadow(10px 15px 10px rgba(241, 201, 236, 0.25));
+    border-radius: 10px;
+    text-align:left;
+}
